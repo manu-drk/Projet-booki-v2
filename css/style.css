@@ -507,7 +507,7 @@ a {
     justify-content: space-between;
     margin-top: 20px;
     margin-bottom: 20px;
-    gap: 24px;
+    gap: 19px;
     transition: transform 500ms ease-in-out;
 }
 .hebergements-cards .card:hover {
@@ -721,6 +721,9 @@ margin-left: 5px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+    }
+    .populaires-cards img {        
+        height: 145px;        
     }
 
     .populaires-cards a {
