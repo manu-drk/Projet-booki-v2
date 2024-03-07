@@ -941,7 +941,7 @@ a {
 .activités-cards img {
     width: 100%;
     height: calc(100% - 60px);
-    display: bloc;
+    display: block;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     object-fit: cover;
