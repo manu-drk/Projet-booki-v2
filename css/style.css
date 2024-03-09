@@ -35,10 +35,11 @@ body {
 
 
     .main-container {
-        width: 100%;
-        min-width: 250px;
+        width: 100%;        
         padding: 0 0px;
         box-sizing: border-box;
+        min-width: 320px;
+        overflow-x: hidden;
     }
 
     body {
@@ -68,12 +69,7 @@ body {
 
 }
 
-.titre h2 {
 
-    font-size: 1.2em;
-    font-weight: lighter;
-
-}
 
 /******** Medium devices Nav (tablets, less/equal than 1024px) ********/
 
@@ -98,6 +94,10 @@ body {
         margin: 0;
     }
 }
+
+
+
+
 
 
 
@@ -225,7 +225,7 @@ nav a {
     top: 15px;
     color: #000000;
     background: white;
-    border: 1px solid #f2f2f2;
+    border: 2px solid #f2f2f2;
     border-radius: 15px 0px 0px 15px;
     background: #f2f2f2;
     width: 50px;
@@ -255,8 +255,8 @@ nav a {
 }
 
 input {
-    border-top: 1px solid #f2f2f2;
-    border-bottom: 1px solid #f2f2f2;
+    border-top: 2px solid #f2f2f2;
+    border-bottom: 2px solid #f2f2f2;
     border-left: 0px;
     border-right: 0px;
     padding-left: 10px;
@@ -288,12 +288,14 @@ input::placeholder {
 @media (max-width: 767.98px) {
     .zone-recherche {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         margin: 40px 20px;
     }
 
     input {
-        width: 95%;
+        width: 76%;
+        padding-left: 0;
+        padding-right: 0;
     }
 
     .zone-recherche .loupe {
@@ -323,7 +325,7 @@ input::placeholder {
 
     .zone-recherche .loupe:hover {
         transform: scale(1.05);
-        filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.162));
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.45));
 
     }
 
@@ -375,13 +377,11 @@ input::placeholder {
 }
 
 .icons-filtre:hover {
-
     background: #deebff;
     transform: scale(1.02);
 }
 
 .filtre-bloc {
-
     display: flex;
     flex-direction: row;
     gap: 10px;
@@ -593,7 +593,6 @@ a {
     }
 
     .hebergements-and-populaires section {
-
         border-radius: 0;
         width: 100%;
         padding: 20px;
@@ -900,9 +899,7 @@ a {
 .activités {
     width: 100%;
     margin-top: 70px;
-
     background-color: white;
-
 
 }
 
@@ -941,7 +938,7 @@ a {
 .activités-cards img {
     width: 100%;
     height: calc(100% - 60px);
-    display: block;
+    /* display: block; */
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     object-fit: cover;
@@ -973,17 +970,13 @@ a {
 
 @media (max-width: 1024px) {
 
-    .activités {}
-
+    
     .activités-cards {
-
         height: 300px;
         gap: 25px;
     }
 
     .activités-cards .acti-card {
-
-
         height: 260px;
 
     }
@@ -999,7 +992,6 @@ a {
     }
 
     .activités-cards .card-content {
-
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -1020,23 +1012,23 @@ a {
     }
 
     .activités-title {
-        margin: 20px
+        margin: 20px 40px
     }
 
     .activités-cards {
         height: auto;
         display: flex;
+        width: 100%;
         flex-direction: column;
         align-items: center;
-
         margin-top: 0px;
+        padding: 0px;
         justify-content: space-between;
 
     }
 
     .activités-cards .acti-card {
-
-        width: 90%;
+        width: 85%;
         height: 250px;
         overflow: hidden;
 
@@ -1087,32 +1079,17 @@ a {
         width: 100%;
         margin-top: 60px;
         background-color: var(--main-bg-color);
-
         gap: 23%;
+        
     }
 
     .footer-title {
-        margin-left: 15px;
+        margin-left: 20px;
     }
 
     .footer-subtitle {
-        margin-left: 15px;
+        margin-left: 20px;
     }
 }
 
 
-/* Le code ci-dessous correspond à la version responsive uniquement */
-
-/****** Media queries ***********/
-/* Medium devices (tablets, less/equal than 1024px) */
-@media (max-width: 1024px) {}
-
-/* Small devices (phones, less than 768px) */
-@media (max-width: 767.98px) {}
-
-
-
-
-
-
-/* ... */
