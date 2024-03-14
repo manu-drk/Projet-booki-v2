@@ -2,6 +2,7 @@
 
 * {
     font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
 }
 
 :root {
@@ -39,7 +40,7 @@ body {
         padding: 0 0px;
         box-sizing: border-box;
         min-width: 320px;
-        overflow-x: hidden;
+        /* overflow-x: hidden; */
     }
 
     body {
@@ -295,7 +296,7 @@ input::placeholder {
     input {
         width: 76%;
         padding-left: 0;
-        padding-right: 0;
+        padding-right: 150px;
     }
 
     .zone-recherche .loupe {
@@ -905,6 +906,7 @@ a {
 
 .activités-title {
     display: flex;
+    padding: 0 20px;
 
 }
 
@@ -1012,7 +1014,7 @@ a {
     }
 
     .activités-title {
-        margin: 20px 40px
+        margin: 20px 25px
     }
 
     .activités-cards {
@@ -1053,9 +1055,13 @@ a {
     margin-top: 60px;
     background-color: var(--main-bg-color);
     padding: 0 20px;
-    gap: 23%;
+    
+    
 }
-
+.a-propos, .nos-hebergements, .assistances {
+    width: 34%;
+    gap: 0%;
+}
 .footer-title {
     font-size: 16px;
     font-weight: bolder;
@@ -1067,7 +1073,9 @@ a {
 
 /******** Medium devices Footer (tablets, less/equal than 1024px) ********/
 
-@media (max-width: 1024px) {}
+@media (max-width: 1024px) {
+   
+}
 
 /******** Small devices Footer (phones, less than 768px) ********/
 
