@@ -274,6 +274,21 @@ input::placeholder {
     text-align: center;
 }
 
+:focus::placeholder {
+    opacity: 0;
+
+}
+
+input {
+    color: black;
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 18px;
+    font-style: normal;
+    text-align: justify;
+
+}
+
 
 /******** Medium devices Recherche (tablets, less/equal than 1024px) ********/
 
