@@ -36,7 +36,7 @@ body {
 
 
     .main-container {
-        width: 100%;        
+        width: 100%;
         padding: 0 0px;
         box-sizing: border-box;
         min-width: 320px;
@@ -942,7 +942,6 @@ a {
 .activités-cards img {
     width: 100%;
     height: calc(100% - 60px);
-    /* display: block; */
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     object-fit: cover;
@@ -974,7 +973,7 @@ a {
 
 @media (max-width: 1024px) {
 
-    
+
     .activités-cards {
         height: 300px;
         gap: 25px;
@@ -1057,13 +1056,17 @@ a {
     margin-top: 60px;
     background-color: var(--main-bg-color);
     padding: 0 20px;
-    
-    
+
+
 }
-.a-propos, .nos-hebergements, .assistances {
+
+.a-propos,
+.nos-hebergements,
+.assistances {
     width: 34%;
     gap: 0%;
 }
+
 .footer-title {
     font-size: 16px;
     font-weight: bolder;
@@ -1075,9 +1078,7 @@ a {
 
 /******** Medium devices Footer (tablets, less/equal than 1024px) ********/
 
-@media (max-width: 1024px) {
-   
-}
+@media (max-width: 1024px) {}
 
 /******** Small devices Footer (phones, less than 768px) ********/
 
@@ -1090,7 +1091,7 @@ a {
         margin-top: 60px;
         background-color: var(--main-bg-color);
         gap: 23%;
-        
+
     }
 
     .footer-title {
@@ -1101,5 +1102,3 @@ a {
         margin-left: 20px;
     }
 }
-
-
