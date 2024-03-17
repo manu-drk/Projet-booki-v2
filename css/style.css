@@ -144,6 +144,7 @@ nav a {
     nav {
         display: flex;
         width: 100%;
+        padding-top: 0px;
         flex-direction: row;
         flex-wrap: wrap;
 
@@ -153,7 +154,7 @@ nav a {
     .navElements {
         display: flex;
         width: 100%;
-        padding: 14px 0;
+        padding: 3px 0;
         border-top: transparent;
 
     }
@@ -164,7 +165,7 @@ nav a {
         justify-content: center;
         width: 100%;
         margin: auto;
-        padding: 25px;
+        padding: 15px;
         border-top: transparent;
         border-bottom: 3px solid #F2F2F2;
 
@@ -173,18 +174,17 @@ nav a {
 
 
     nav img {
-        margin: auto;
-        padding-top: 15px;
-        padding-bottom: 15px;
+        margin: 20px auto;
+        height: 30px;
     }
 
 
     nav a:hover {
         text-decoration: none;
-        padding: 25px;
+        padding: 15px;
         border-bottom: 2px solid #0065fc;
         border-top: none;
-
+        transform: none;
         color: #0065fc;
     }
 
@@ -435,6 +435,8 @@ a {
     .filtre {
         display: flex;
         flex-direction: column;
+        width: 95%;
+        margin: 0 15px;
 
     }
 
@@ -442,13 +444,13 @@ a {
         width: 100%;
         display: flex;
         flex-direction: row;
-        margin: 0 21px;
+        margin: 0 0px;
     }
 
     .filtre-bloc {
         width: 100%;
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
         flex-wrap: wrap;
         margin: 16px 0px;
         gap: 16px;
@@ -481,9 +483,9 @@ a {
 }
 
 .info-icon {
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -510,7 +512,7 @@ a {
         align-items: center;
         margin-top: 10px;
         margin-bottom: 10px;
-        margin: 12px 21px;
+        margin: 12px 15px;
     }
 }
 
