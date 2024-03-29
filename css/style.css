@@ -25,6 +25,7 @@ body {
     max-width: 1440px;
     padding: 0 50px;
     box-sizing: border-box;
+    min-width: 320px;
 
 }
 
@@ -459,7 +460,7 @@ a {
         width: 100%;
         display: flex;
         flex-direction: row;
-        margin: 0 0px;
+        margin: 0 20px;
     }
 
     .filtre-bloc {
@@ -467,7 +468,7 @@ a {
         display: flex;
         justify-content: flex-start;
         flex-wrap: wrap;
-        margin: 16px 0px;
+        margin: 16px 15px;
         gap: 16px;
     }
 
@@ -475,7 +476,10 @@ a {
         display: flex;
         flex-wrap: wrap;
         width: 45%;
+        font-size: 19px;
         padding: 3px 11px;
+        gap: 15px;
+
 
     }
 }
@@ -1116,4 +1120,12 @@ a {
     .footer-subtitle {
         margin-left: 20px;
     }
+
+    .a-propos,
+    .nos-hebergements,
+    .assistances {
+        width: 77%;
+
+    }
+
 }
